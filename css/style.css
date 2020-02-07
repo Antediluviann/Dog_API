@@ -1,0 +1,58 @@
+/* GENERAL */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bebas Neue', cursive, sans serif;
+}
+
+body {
+  text-align: center;
+  background-image: linear-gradient(to right, #360033 0%, #0b8793 100%);
+}
+
+/* HEADER */
+
+header .logo img {
+  width: 90px;
+  display: inline-block;
+  float: right;
+  margin-right: 2.5em;
+  margin-top: 0.5em;
+}
+
+h3 {
+  font-size: 3em;
+  color: #fff;
+  display: flex;
+  flex-direction: left;
+  margin-top: 1em;
+  margin-left: 1em;
+  color: #0D828F;
+}
+
+/* SELECT & DIV */
+
+div#div_img > img {
+  margin-top: 120px;
+  /*display: block;*/
+  /*width: 600px;
+  max-width: 800px;
+  margin-left: 40%;*/
+}
+
+select {
+  font-size: 2.1em;
+  padding: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: #0D828F;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #0D828F;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  letter-spacing: 1px;
+}
